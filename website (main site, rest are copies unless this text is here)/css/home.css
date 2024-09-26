@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: 'Inter';font-size: 16px;
+	background-color: #3B729F;
+}
+body a:link {
+	text-decoration: none;
+}
+h1 {
+	font-family: 'Inter';font-size: 21px;
+}
+div.nav {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	margin: 20px;
+	background-color: #4888BC;
+}
+
+
+div.hotspot a:hover {
+	background-color: transparent;
+}
+
+.nav a:hover {
+	background-color: #4279A7;
+}
+
+.nav a:visited {
+	background-color:#5293CA;
+}
+div.container {
+	display: flex;
+	height: 20;
+}
+div.textBlock {
+padding: 10px;
+	text-align: center;
+	background-color: #D0C6CC
+;
+}
+div.footer {
+		text-align: center;
+	padding: 10px;
+	margin: 10px;
+	margin: 20px;
+	background-color: #4888BC;
+	position:fixed;
+	bottom: 0;
+	width: 96%;
+}
+div {
+	padding: 15px;
+}

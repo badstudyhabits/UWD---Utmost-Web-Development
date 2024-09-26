@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: 'Inter';font-size: 16px;
+	background-color: #3B729F;
+}
+body a:link {
+	text-decoration: none;
+}
+h1 {
+	font-family: 'Inter';font-size: 21px;
+	text-align: center;
+}
+h2 {
+	font-family: 'Inter';font-size: 21px;
+	
+}
+h3 {
+	font-family: 'Inter';font-size: 21px;
+	text-align: center;
+}
+h4 {
+	font-family: 'Inter';font-size: 21px;
+}
+h5 {
+	font-family: 'Inter';font-size: 21px;
+}
+
+div.nav {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	margin: 20px;
+	background-color: #4888BC;
+}
+
+
+div.hotspot a:hover {
+	background-color: transparent;
+}
+
+.nav a:hover {
+	background-color: #4279A7;
+}
+
+.nav a:visited {
+	background-color:#5293CA;
+}
+
+div.content_Text {
+padding: 10px;
+	text-align: justify;
+	background-color: #D0C6CC;
+}
+
+div.footer {
+		text-align: center;
+	padding: 10px;
+	margin: 10px;
+	margin: 20px;
+	background-color: #4888BC;
+
+	bottom: 0;
+	width: 96%;
+}
+div {
+	padding: 15px;
+
+}
+div.JR_Dev {
+	width: 25%;
+	text-align: center;
+}
+div.SR_Dev {
+	width: 25%;
+	text-align: center;
+}
+div.PManager {
+	width: 25%;
+	text-align: center;
+}
+div.PLCMTStudent {
+	width: 25%;
+	text-align: center;
+}
+div.positions {
+	display:flex;
+}
+p {
+	text-align: center;
+}
+ul {
+	text-align: center;
+}
+div.content_Form {
+padding: 10px;
+	text-align: justify;
+	background-color: #DBD3D8;
+	
+}
+input[type=text] {
+	width: 75%;
+	padding: 10px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+input:focus {
+	border: 3px solid #555;
+}
+select {
+	width: 15%;
+	padding: 16px 20px;
+	border: none;
+	border-radius: 4px;
+	background-color:#D0C6CC;
+}
+.button {
+    background-color: #FFFFFF;
+    border: 2px solid #D0C6CC;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 15px 32px;
+    font-size: 16px;
+}
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #D0C6CC;
+    border-radius: 4px;
+}
+.button1:hover {
+	background-color: #D0C6CC;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: 2px solid #EEEAEC;
+  background: #6296F0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #EEEAEC;
+	color:black;
+	border: 2px solid #6296F0;
+	border-radius: 10px;
+}
